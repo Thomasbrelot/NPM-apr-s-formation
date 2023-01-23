@@ -1,0 +1,519 @@
+/*modification général de la page*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  /*display: flex;*/
+}
+.text-align-center {
+  text-align: center;
+}
+
+.padding-zero {
+  padding: 0 !important;
+}
+
+/*Modification des taille de police sur la page internet*/
+.font-size-20px {
+  font-size: 20px;
+}
+.font-size {
+  font-size: 26px;
+}
+
+/*Modification de la couleur de police*/
+.color-white {
+  color: white;
+}
+
+/*Modification des titres H1, H2.. sur la page internet*/
+h1 {
+  font-size: 75px;
+  margin-top: 0;
+  padding-top: 60px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 48px;
+}
+h5 {
+  font-size: 40px;
+}
+h6 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.background-top-continue {
+  border-width: 10px 0 0;
+  border-top-style: solid;
+  -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+.block-logo-nav {
+  margin-left: 2em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+.menu-burger-nav {
+  display: none;
+}
+.block-nav ul {
+  display: flex;
+  margin-right: 3em;
+}
+.block-nav ul li {
+  margin-left: 35px;
+}
+
+.effet-hover::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: linear-gradient(45deg, #e72daf, #ff5722);
+  margin: auto;
+  display: block;
+  transition: all 0.6s ease-in-out;
+}
+.effet-hover:hover::after {
+  width: 100%;
+}
+.border-line-bottom {
+  border-bottom: solid #e1e1e1 1px;
+}
+
+/*bloc seconde nav avec logo recherche*/
+.header-search-connexion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 10px 35px 25px;
+}
+
+.width-10 {
+  width: 10%;
+}
+
+.place-logo-burger {
+  display: none;
+}
+
+.display-flex.width-50 {
+  display: flex;
+}
+.padding-5em {
+  padding-right: 5em;
+}
+form {
+  width: 50%;
+}
+input#recherche {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  border: none;
+  padding: 13px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  box-shadow: inset 2px 0px 3px 0px #656565;
+}
+button.button-search {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 115px;
+  height: 50px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+.nav-connexion ul li {
+  font-size: 16px;
+}
+.nav-connexion ul {
+  display: flex;
+}
+.nav-connexion ul li a {
+  margin: 0px 25px;
+}
+.logo-search {
+  display: none;
+}
+.aerer {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+/*Première section sign up free...*/
+.background-top {
+  background-image: url(./image/Background-top-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+.block-lien {
+  width: 100%;
+}
+.lien-backgroound-top {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5em 0px 0px 0px;
+}
+ul.lien-backgroound-top li {
+  width: 50%;
+}
+.button-background-1 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000000;
+  background: #ffc329;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 65%);
+  padding: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.button-background-2 {
+  font-family: Poppins, sans-serif;
+  font-size: 19px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: #cb3837;
+  padding: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+/*Deuxieme sextion*/
+.section-one {
+  margin: 4em;
+}
+.background-section-two {
+  background-image: url(./image/Background-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+}
+
+.section-three-block-text {
+  margin: 4em;
+}
+
+/*Pied de page (Footer)*/
+.border-line-bottom {
+  border-bottom: solid #e1e1e1 1px;
+}
+.tous-logo-footer {
+  width: 45%;
+  margin-bottom: 100px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.logo-footer {
+  width: 30%;
+}
+.width-33 {
+  width: 35%;
+}
+.lien-footer {
+  display: flex;
+  align-items: baseline;
+  margin-left: 3em;
+}
+li.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.width-20 {
+  width: 20%;
+}
+
+@media screen and (max-width: 980px) {
+  /* Modification des titres */
+  h1 {
+    font-size: 56px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 42px;
+  }
+  h5 {
+    font-size: 35px;
+  }
+
+  .font-size-20px {
+    font-size: 16px;
+  }
+
+  .tous-logo-footer {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+
+  .section-three-block-text {
+    font-size: 14px;
+  }
+  .menu-burger-nav {
+    display: block;
+    margin-right: 5em;
+    position: absolute;
+    right: -1em;
+    top: 3em;
+  }
+  .lock-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(3px);
+    margin-left: -100%;
+    transition: all 1.9s ease;
+  }
+  .mobile-menu {
+    margin-left: 0;
+  }
+  .block-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block-nav ul li {
+    margin: 25px 0;
+    font-size: 18px !important;
+  }
+
+  /*menu-hamburger pour la connexion compte client*/
+  .header-search-connexion {
+    justify-content: flex-start;
+  }
+  .nav-connexion {
+    display: none;
+  }
+  .nav-connexion.mobile-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #e72daf, #ff5722);
+    backdrop-filter: blur(8px);
+    margin-right: -100%;
+    transition: all 1.9s ease;
+  }
+  form {
+    width: 60%;
+  }
+  .place-logo-burger {
+    position: absolute;
+    display: block;
+    padding-right: 4em;
+    top: 7em;
+    right: 0;
+  }
+  .nav-connexion ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-connexion ul li {
+    margin: 50px 0;
+    font-size: 20px;
+  }
+  .nav-connexion.mobile-menu-connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #e72daf, #ff5722);
+    backdrop-filter: blur(8px);
+    margin-right: -100%;
+    transition: all 1.9s ease;
+  }
+  a.cadre-signUp {
+    border: solid 2px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px;
+  }
+  a.cadre-signUp {
+    border: solid 2px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px;
+    color: aliceblue;
+  }
+  .ligne-bottom-sign-in {
+    color: aliceblue;
+    border-bottom: solid 2px;
+  }
+  .background-top {
+    height: 640px;
+  }
+  button.button-background-1 {
+    font-size: 16px;
+  }
+  button.button-background-2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .padding-5em {
+    padding-right: 3em;
+  }
+
+  /* Modifications des titres */
+  h1 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .font-size-14 {
+    font-size: 14px;
+  }
+  button.button-background-1 {
+    font-size: 14px;
+  }
+  button.button-background-2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 675px) {
+  footer {
+    display: initial;
+  }
+  .div-Logo-Footer {
+    width: 100%;
+  }
+  .logo-footer {
+    width: 10%;
+    margin-top: 3em;
+  }
+  .text-align-center {
+    text-align: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Logo NPM block search */
+  svg.logo-npm {
+    width: 150%;
+    margin-top: 10px;
+  }
+  /* Logo boule de lave deformé */
+  .logo-boule-lave {
+    width: 25%;
+  }
+
+  /* Modification des titres pour format mobil */
+  h1 {
+    font-size: 33px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 27px;
+  }
+  h5 {
+    font-size: 24px;
+}
+
+  /* class pour aerer le texte sur mobil */
+  .aeration-text {
+    margin: 0px 20px 0px 20px;
+    font-size: 12px;
+  }
+  .section-three-block-text {
+    margin: 0px 10px 30px 10px;
+  }
+
+  button.button-background-1 {
+    font-size: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  button.button-background-2 {
+    font-size: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .menu-burger-nav {
+    right: -3em;
+  }
+  form {
+    width: 55%;
+  }
+  .place-logo-burger {
+    position: absolute;
+    display: block;
+    padding-right: 0em;
+    top: 122px;
+    padding-right: 33px;
+  }
+  .lien-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tous-logo-footer {
+    width: 65%;
+    margin-bottom: 65px;
+}
+}
