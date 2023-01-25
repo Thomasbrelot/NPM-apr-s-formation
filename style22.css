@@ -454,25 +454,25 @@ li.padding-bottom-20 {
   }
   /* Logo boule de lave deformé */
   .logo-boule-lave {
-    width: 25%;
+    width: 30%;
   }
 
   /* Modification des titres pour format mobil */
   h1 {
-    font-size: 35px;
+    font-size: 37px;
   }
   h2 {
     font-size: 24px;
     margin-top: 3em;
   }
   h3 {
-    font-size: 22px;
+    font-size: 26px;
   }
   h4 {
-    font-size: 27px;
+    font-size: 28px;
   }
   h5 {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .block-logo-nav {
@@ -482,7 +482,7 @@ li.padding-bottom-20 {
   /* class pour aerer le texte sur mobil */
   .aeration-text {
     margin: 25px 20px 0px 20px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .section-three-block-text {
     margin: 0px 10px 30px 10px;
@@ -518,7 +518,7 @@ li.padding-bottom-20 {
     text-align: center;
   }
   .tous-logo-footer {
-    width: 65%;
+    width: 75%;
     margin-bottom: 65px;
   }
 }
