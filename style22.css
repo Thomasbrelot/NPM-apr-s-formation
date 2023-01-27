@@ -294,11 +294,11 @@ li.padding-bottom-20 {
     align-items: center;
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(255 255 255 / 30%);
-    backdrop-filter: blur(3px);
+    background-color: rgb(255 255 255 / 80%);
+    backdrop-filter: blur(7px);
     margin-left: -100%;
     transition: all 1.9s ease;
   }
@@ -366,10 +366,10 @@ li.padding-bottom-20 {
     top: 0;
     left: 0;
     background: linear-gradient(45deg, #e72daf, #ff5722);
-    backdrop-filter: blur(8px);
     margin-right: -100%;
     transition: all 1.9s ease;
   }
+
   a.cadre-signUp {
     border: solid 2px;
     padding: 15px;
@@ -481,8 +481,11 @@ li.padding-bottom-20 {
 
   /* class pour aerer le texte sur mobil */
   .aeration-text {
-    margin: 25px 20px 0px 20px;
+    margin: 25px 5px 0px 5px;
     font-size: 16px;
+  }
+  .section-one {
+    margin: 5em 5px 5em 5px;
   }
   .section-three-block-text {
     margin: 0px 10px 30px 10px;
