@@ -297,8 +297,8 @@ li.padding-bottom-20 {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(255 255 255 / 80%);
-    backdrop-filter: blur(7px);
+    background-color: rgb(255 255 255 / 90%);
+    backdrop-filter: blur(8px);
     margin-left: -100%;
     transition: all 1.9s ease;
   }
@@ -447,6 +447,9 @@ li.padding-bottom-20 {
 }
 
 @media screen and (max-width: 500px) {
+  .margin-zero {
+    margin: 0 !important;
+  }
   /* Logo NPM block search */
   svg.logo-npm {
     width: 150%;
@@ -473,6 +476,10 @@ li.padding-bottom-20 {
   }
   h5 {
     font-size: 26px;
+  }
+  h6 {
+    border-bottom-style: double;
+    margin-bottom: 35px;
   }
 
   .block-logo-nav {
@@ -519,6 +526,7 @@ li.padding-bottom-20 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 0;
   }
   .tous-logo-footer {
     width: 75%;
